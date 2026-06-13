@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Calculator</title>
-    <!-- Include Brython library -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
-</head>
-<body onload="brython()">
-    <h1>Python Calculator</h1>
-    
-    <!-- Python code embedded in script tag -->
-    <script type="text/python">
-        print('Basic calculator by Yusuf, using pure Python.\n')
+print('Basic calculator by Yusuf, using pure Python.\n')
         print('''Type 1 for addition,
         2 for subtraction,
         3 for multiplication,
@@ -52,6 +38,3 @@
 
         else:
             print('INVALID INPUT, TYPE ERROR 301')
-    </script>
-</body>
-</html>
